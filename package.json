@@ -1,0 +1,16 @@
+{
+  "name": "starsling",
+  "private": true,
+  "version": "1.0.0",
+  "description": "STARSLING — Tactile Cosmic Slingshot Roguelite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.1.0"
+  }
+}
